@@ -7,7 +7,6 @@
     android:background="#121212"
     tools:context=".MainActivity">
 
-    <!-- Nagłówek aplikacji -->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -26,7 +25,6 @@
     android:letterSpacing="0.1"
     />
 
-    <!-- Lista piosenek -->
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"
         android:layout_width="match_parent"

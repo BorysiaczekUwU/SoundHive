@@ -228,7 +228,7 @@ public class ActivityOdtwarzania extends AppCompatActivity {
     private void zmienPiosenke() {
         aktualnaPiosenka = listaPiosenek.get(aktualnaPozycja);
         ustawDanePiosenki();
-        ustawRozmyteTlo(); // Zmieniono z ustawKolorTla()
+        ustawRozmyteTlo();
         inicjalizujMediaPlayer();
     }
 

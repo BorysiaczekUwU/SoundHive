@@ -235,12 +235,6 @@ public class MainActivity extends AppCompatActivity implements AdapterPiosenek.O
                 R.drawable.end,
                 R.raw.meet_me));
 
-        listaPiosenek.add(new Piosenka(
-                "Faint",
-                "Papercuts",
-                "Linkin Park",
-                R.drawable.papercut,
-                R.raw.faint));
 
         listaPiosenek.add(new Piosenka(
                 "Animal I Have Become",

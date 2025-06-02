@@ -120,7 +120,6 @@
         android:layout_marginHorizontal="24dp"
         android:elevation="3dp">
 
-        <!-- Przycisk Repeat po lewej stronie -->
         <ToggleButton
             android:id="@+id/repeatButton"
             android:layout_width="32dp"
@@ -132,7 +131,6 @@
             android:textOn=""
             android:checked="false" />
 
-        <!-- Przycisk Previous -->
         <ImageView
             android:id="@+id/previous"
             android:layout_width="56dp"
@@ -143,7 +141,6 @@
             android:layout_centerVertical="true"
             app:tint="#FFFFFF" />
 
-        <!-- Centralny przycisk Play/Pause -->
         <ImageView
             android:id="@+id/pause_play"
             android:layout_width="80dp"
@@ -152,7 +149,6 @@
             android:src="@drawable/pause"
             app:tint="#FFB300" />
 
-        <!-- Przycisk Next -->
         <ImageView
             android:id="@+id/next"
             android:layout_width="56dp"
@@ -163,7 +159,6 @@
             android:layout_centerVertical="true"
             app:tint="#FFFFFF" />
 
-        <!-- Przycisk Shuffle po prawej stronie -->
         <ToggleButton
             android:id="@+id/shuffleButton"
             android:layout_width="32dp"
