@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.SoundHive" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowLightNavigationBar">true</item> <!-- jeśli chcesz jasne ikony -->
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+</resources>

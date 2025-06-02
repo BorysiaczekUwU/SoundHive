@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#121212"
+    tools:context=".MainActivity">
+
+    <!-- Nagłówek aplikacji -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SoundHive"
+        android:textColor="#FFD700"
+    android:textSize="56sp"
+    android:gravity="center"
+    android:padding="16dp"
+        android:background="@drawable/header_background"
+    android:elevation="8dp"
+    android:fontFamily="@font/honey_font_2"
+    android:shadowColor="#8B4513"
+    android:shadowDx="2"
+    android:shadowDy="2"
+    android:shadowRadius="4"
+    android:letterSpacing="0.1"
+    />
+
+    <!-- Lista piosenek -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="8dp"
+        android:clipToPadding="false"
+        android:scrollbars="vertical" />
+</LinearLayout>
